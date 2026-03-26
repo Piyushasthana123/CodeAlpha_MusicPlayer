@@ -1,0 +1,373 @@
+ body {
+     margin: 0px;
+     padding: 0px;
+     background-color: black;
+ }
+
+ .conatiner {
+     margin: 4px;
+     padding: 10px;
+     display: flex;
+     color: white;
+     height: 97vh;
+ }
+
+ .sidebar {
+     background-color: #181717;
+     width: 29vw;
+     padding: 12px;
+     margin: 4px;
+ }
+
+
+ .flex {
+     display: flex;
+     align-items: center;
+ }
+
+ .logo {
+     padding-bottom: 5px;
+ }
+
+ .home {
+     gap: 10px;
+     padding-top: 5px;
+ }
+
+ .search {
+     padding-top: 5px;
+     gap: 5px;
+ }
+
+ .Library {
+     position: relative;
+     background-color: rgb(26, 25, 25);
+     width: 30vw;
+     padding: 5px;
+     height: 126%;
+ }
+
+ .playlist {
+     scrollbar-width: thin;
+     scrollbar-color: rgb(66, 63, 63) transparent;
+     overscroll-behavior: contain;
+     overflow-y: scroll;
+     height: 66vh;
+     padding: 20px;
+     margin: 5px;
+     display: grid;
+     grid-template-columns: 1fr;
+     gap: 10px;
+     justify-content: center;
+
+ }
+
+ .listcard1 {
+    width: 28vw;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between; 
+    gap: 12px;
+    cursor: pointer;
+    padding: 12px 0;
+ }
+ .playnow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+ }
+ .playnow span{
+    font-size: 15px;
+    padding: 12px;
+
+
+ }
+
+ .leftbot {
+     margin: 20px;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     position: absolute;
+     bottom: 56px;
+
+ }
+
+ .leftbot a {
+     text-decoration: none;
+     color: rgb(101, 99, 99);
+ }
+
+ .language-selector>img {
+     width: 20px;
+     height: 16px;
+ }
+
+ .language-selector {
+     cursor: pointer;
+     position: relative;
+     z-index: 1;
+     display: inline-flex;
+     padding: 7px 7px 6px 6px;
+     color: white;
+     justify-content: center;
+     align-items: center;
+     background-color: rgba(23, 23, 23, 0.7);
+     border: 1px solid rgb(121, 119, 119);
+     border-radius: 4px;
+ }
+
+ #btn2 {
+     margin-top: 30px;
+ }
+
+ select {
+     cursor: pointer;
+     background-color: rgba(23, 23, 23, 0.7);
+     color: white;
+     border: none;
+
+ }
+
+ .language-selector select option {
+     cursor: pointer;
+     background-color: black;
+     color: white;
+     font-size: 1.2rem;
+ }
+
+ .English {
+     display: flex;
+     margin: 17px;
+     bottom: 160px;
+     position: absolute;
+ }
+
+ .right {
+     position: relative;
+     background-color: rgb(59, 58, 58);
+     height: 142%;
+     width: 70vw;
+     margin: 3px;
+ }
+
+ .nav {
+     height: 51px;
+     padding: 10px;
+     background-color: #181717;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .arrow {
+     background: #181717;
+ }
+
+ .login {
+     margin: 10px;
+     background-color: #181717;
+ }
+
+ .btn1 {
+     height: 38px;
+     width: 85px;
+     margin: 5px;
+     background-color: black;
+     color: rgb(255, 255, 255);
+     border: 1px solid black;
+     border-radius: 15px;
+     font-weight: bold;
+     font-size: 14px;
+     cursor: pointer;
+ }
+
+ .btn1:hover {
+     font-size: 15px;
+     background-color: rgb(255, 255, 255);
+     color: rgb(144, 115, 248);
+
+
+ }
+
+ .btn2 {
+     font-size: 14px;
+     height: 38px;
+     width: 85px;
+     margin: 5px;
+     font-weight: bold;
+     border: 1px solid black;
+     border-radius: 15px;
+     background-color: white;
+     cursor: pointer;
+ }
+
+ .btn2:hover {
+     font-size: 15px;
+     background-color: rgb(0, 0, 0);
+     color: rgb(125, 123, 247);
+
+ }
+
+ .card {
+
+     margin: 16px;
+ }
+
+ .playlisttop a {
+     text-decoration: none;
+     color: white;
+ }
+
+ #search {
+     border-radius: 5px;
+     border: none;
+     height: 20px;
+     width: 251px;
+ }
+
+ .flexsearch {
+     align-items: center;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .input {
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+     background-color: rgb(255, 255, 255);
+     color: black;
+ }
+
+ .play {
+     scrollbar-width: thin;
+     scrollbar-color: rgb(34, 32, 32) transparent;
+     overscroll-behavior: contain;
+     overflow-y: scroll;
+     height: 64vh;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     gap: 20px;
+     background: rgb(59, 58, 58);
+     padding: 10px;
+     margin: 10px;
+ }
+
+ .songcard {
+     position: relative;
+     height: 214px;
+     width: 150px;
+     background-color: black;
+     border: 2px solid black;
+     padding: 14px;
+     border-radius: 13px;
+     font-size: 11px;
+     object-fit: contain;
+ }
+
+ .songcard:hover {
+     background-color: rgb(38, 37, 37);
+
+ }
+
+ .hover {
+     position: absolute;
+     right: 12px;
+     top: 200px;
+     opacity: 0;
+     transition: all 1s ease-out;
+ }
+
+ .songcard:hover .hover {
+     opacity: 1;
+     top: 127px;
+ }
+
+
+ .songcard>img {
+     width: 100%;
+     object-fit: contain;
+     /* position: fixed;
+    bottom: 0; */
+ }
+
+ .footer {
+     /* bottom: 95px;
+     position: absolute; */
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     padding: 27px;
+     gap: 13px;
+     justify-content: center;
+ }
+
+ .c {
+     position: absolute;
+     bottom: 150px;
+     padding: 10px;
+     color: #000000;
+
+ }
+
+ .links {
+     display: flex;
+     justify-content: center;
+ }
+
+ .links div {
+     border: 1px solid #292424;
+     border-radius: 50%;
+     height: 32px;
+     margin: 2px;
+     background-color: #292929;
+     padding: 4px;
+     cursor: pointer;
+ }
+
+ .bottom {
+     padding: 2px;
+ }
+
+
+
+ .bottom>a {
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+     /* padding: 5px; */
+     margin: 2px;
+     display: block;
+ }
+
+ .head>a {
+     text-decoration: none;
+     color: rgb(255, 245, 245);
+     /* padding: 5px; */
+     margin: 2px;
+     font-weight: bold;
+     font-size: large;
+ }
+
+ .follow {
+     display: flex;
+     gap: 5px;
+ }
+
+ .music {
+     position: fixed;
+     bottom: 20px;
+     padding: 12px;
+     width: 63.5vw;
+     border-radius: 20px;
+     background-color: rgb(255, 255, 255);
+
+ }
+
+ .palybutton {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+ }
